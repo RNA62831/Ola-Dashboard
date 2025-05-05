@@ -6,18 +6,84 @@ A Power BI dashboard and SQL analysis project using a 20,000+ Ola ride records d
 - **Power BI** – Data visualization and dashboard creation
 - **DAX** – Custom calculated measures and logic
 
-## 📌 Features & KPIs
-- Revenue analysis by **payment method**, **vehicle type**, and **region**
-- **Cancellation trends** by time, location, and vehicle
-- Top-paying customer identification and booking behavior
-- Ratings distribution to assess driver performance
-- Filters for date, city, and vehicle type for dynamic drill-downs
+## 📊 Dashboard Highlights
+### Bookings Overview  
+!(images/ride-volume-over-time.png)
 
-- ## 📈 Business Insights (Key Results)
-- 💳 **Card payments** generated the highest average revenue
-- 🚙 **SUVs** had the **lowest cancellation rate**
-- 🧍‍♂️ **Top 5% customers** contributed to **30%+ of total bookings**
-- 📉 Identified patterns in **peak-hour cancellations** and **low-rated rides**
+### Vehicle Type   
+!(images/revenue-by-payment-method.png)
+
+### Revenue
+!(images/cancellation-reasons.png)
+
+### Cancellation  
+!(images/ratings-comparison.png)
+
+The dashboard is divided into five main sections:
+
+### 1. 🚦 Overall Bookings Overview
+- **Total Records Analyzed**: 20,000+
+- **Success Rate**: ✅ 62%
+- **Cancellation Rate**: ❌ 28.1%
+  - Cancelled by Drivers: 17.91%
+  - Cancelled by Customers: ~10%
+  - Driver Not Found: ~9.9%
+  
+🔍 **Insight**: Driver-side issues contribute significantly to cancellation rate, affecting customer experience.
+
+---
+
+### 2. 🚗 Vehicle Type Analysis
+- Total & Successful Booking Value per Vehicle
+- Average and Total Distance Travelled
+- Ratings Analysis by Vehicle Type
+
+💡 **Insight**:
+- **Mini** received the **highest customer ratings**
+- **Prime Plus** received the **highest driver ratings**
+
+📌 **Actionable Idea**: Expand Mini fleet for customer satisfaction and retain Prime Plus for high-value driver experience.
+
+---
+
+### 3. 💸 Revenue & Payments
+- Revenue Breakdown by **Payment Method**
+- Top 5 Customers by Total Spend
+- Ride Distance Distribution by Date
+
+📊 **Finding**:
+- Most transactions were **cash-based**
+- Ride distances drop significantly on **Sundays**
+
+📌 **Actionable Idea**: Promote digital payments and target Sunday discounts to boost off-peak rides.
+
+---
+
+### 4. ❌ Cancellations Deep Dive
+- Driver-side cancellations outnumbered customer ones.
+- **Top reasons**: Personal issues and care-related emergencies.
+
+📌 **Actionable Idea**: Introduce backup driver systems and better driver availability policies.
+
+---
+
+### 5. ⭐ Ratings Analysis
+- Compared **driver vs. customer ratings** across vehicle types
+- Plotted distribution to find satisfaction gaps
+
+📊 **Key Insight**:
+- **Mini** has the happiest customers
+- **Prime Plus** is the most liked by drivers
+
+---
+
+## 🔍 Additional Opportunities (Future Work)
+
+- Geo-mapping booking & cancellation clusters
+- Churn prediction based on booking frequency
+- Forecasting high-demand time slots
+- Customer segmentation for targeted campaigns
+
 
 - ## 🔗 Links
 - 🖥️ **Live Power BI Dashboard**: [Click to View](YOUR_PUBLIC_LINK_HERE)
