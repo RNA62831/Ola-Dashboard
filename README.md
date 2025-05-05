@@ -8,10 +8,10 @@ A Power BI dashboard and SQL analysis project using a 20,000+ Ola ride records d
 
 ## 📊 Dashboard Highlights
 ### Bookings Overview  
-![Booking Overall](images/Bookings-Overview.png)
+![Booking Overall](images/Bookings%20Overview.png)
 
 ### Vehicle Type   
-![Vehicle Type](images/Vehicle-Type.png)
+![Vehicle Type](images/Vehicle%20Type.png)
 
 ### Revenue
 ![Revenue](images/Revenue.png)
@@ -20,7 +20,7 @@ A Power BI dashboard and SQL analysis project using a 20,000+ Ola ride records d
 ![Cancellation](images/Cancellation.png)
 
 ### Ratings
-![Ratings](images/Ratingspng)
+![Ratings](images/Ratings.png)
 
 The dashboard is divided into five main sections:
 
