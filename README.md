@@ -8,28 +8,36 @@ A Power BI dashboard and SQL analysis project using a 20,000+ Ola ride records d
 
 ## 📊 Dashboard Highlights
 ### Bookings Overview  
-!(images/ride-volume-over-time.png)
+![Booking Overall](images/Bookings-Overview.png)
 
 ### Vehicle Type   
-!(images/revenue-by-payment-method.png)
+![Vehicle Type](images/Vehicle-Type.png)
 
 ### Revenue
-!(images/cancellation-reasons.png)
+![Revenue](images/Revenue.png)
 
 ### Cancellation  
-!(images/ratings-comparison.png)
+![Cancellation](images/Cancellation.png)
+
+### Ratings
+![Ratings](images/Ratingspng)
 
 The dashboard is divided into five main sections:
 
 ### 1. 🚦 Overall Bookings Overview
-- **Total Records Analyzed**: 20,000+
+- **Total Records Analyzed**: 20,407
 - **Success Rate**: ✅ 62%
-- **Cancellation Rate**: ❌ 28.1%
+- **Cancellation Rate**: ❌ 38.01%
   - Cancelled by Drivers: 17.91%
-  - Cancelled by Customers: ~10%
+  - Cancelled by Customers: ~10.2%
   - Driver Not Found: ~9.9%
   
-🔍 **Insight**: Driver-side issues contribute significantly to cancellation rate, affecting customer experience.
+🔍 **Insight**: Driver-side issues contribute significantly to the cancellation rate, affecting customer experience. A 28.1% cancellation rate is alarming. Since most cancellations are driver-related, this indicates:
+
+- Potential issues with driver availability or incentives
+- Need for driver engagement strategies and better ride-matching algorithms
+
+📌 **Actionable Suggestion**: Introduce penalty for frequent cancellations & incentives for peak-hour availability.
 
 ---
 
@@ -39,41 +47,52 @@ The dashboard is divided into five main sections:
 - Ratings Analysis by Vehicle Type
 
 💡 **Insight**:
-- **Mini** received the **highest customer ratings**
-- **Prime Plus** received the **highest driver ratings**
+- **Mini** received the **highest customer ratings** suggesting strong affordability and satisfaction.
+- **Prime Plus** received the **highest driver ratings** possibly due to better fares or vehicle comfort.
 
-📌 **Actionable Idea**: Expand Mini fleet for customer satisfaction and retain Prime Plus for high-value driver experience.
+📌 **Actionable Idea**: Expand Mini fleet for customer satisfaction and retain Prime Plus for high-value driver experience. Offer retention bonuses to Prime Plus drivers to reduce churn.
 
 ---
 
-### 3. 💸 Revenue & Payments
+### 3. 💸 Revenue & Payment Trends
 - Revenue Breakdown by **Payment Method**
 - Top 5 Customers by Total Spend
 - Ride Distance Distribution by Date
 
 📊 **Finding**:
 - Most transactions were **cash-based**
-- Ride distances drop significantly on **Sundays**
+- High cash payments mean more operational friction and potential leakage.
+- Low rides on Sundays signal a weekend dip in urban mobility.
 
-📌 **Actionable Idea**: Promote digital payments and target Sunday discounts to boost off-peak rides.
+📌 **Actionable Idea**: 
+- Promote digital wallet offers to increase non-cash usage.
+- Introduce Sunday ride discounts to boost off-peak traffic.
 
 ---
 
-### 4. ❌ Cancellations Deep Dive
+### 4. ❌ Cancellations 
 - Driver-side cancellations outnumbered customer ones.
 - **Top reasons**: Personal issues and care-related emergencies.
+
+📊 **Finding**:
+- High driver-side cancellation leads to poor customer experience and revenue loss.
 
 📌 **Actionable Idea**: Introduce backup driver systems and better driver availability policies.
 
 ---
 
 ### 5. ⭐ Ratings Analysis
-- Compared **driver vs. customer ratings** across vehicle types
-- Plotted distribution to find satisfaction gaps
+- **Mini** cars has the happiest customers
+- **Prime Plus** is the most liked by drivers
 
 📊 **Key Insight**:
-- **Mini** has the happiest customers
-- **Prime Plus** is the most liked by drivers
+- Customer loyalty is high for Mini due to affordability and reliability.
+- Drivers may prefer Prime Plus due to better earning potential.
+
+📌 **Actionable Idea**:
+- Boost Mini fleet size to improve customer satisfaction.
+- Leverage driver feedback from Prime Plus to improve onboarding and training across vehicle types.
+
 
 ---
 
@@ -83,40 +102,6 @@ The dashboard is divided into five main sections:
 - Churn prediction based on booking frequency
 - Forecasting high-demand time slots
 - Customer segmentation for targeted campaigns
-
-
-- ## 🔗 Links
-- 🖥️ **Live Power BI Dashboard**: [Click to View](YOUR_PUBLIC_LINK_HERE)
-- 💾 **SQL Queries File**: [queries.sql](queries.sql)
-- 📊 **Download Power BI File**: [OlaDashboard.pbix](OlaDashboard.pbix)
-- 🖼️ **Project Screenshots**: See below
-
-## 📷 Dashboard Previews
-
-### 💡 Revenue by Payment Method  
-![Revenue by Payment](images/revenue-by-payment-method.png)
-
----
-
-### 📉 Cancellation Rate by Vehicle Type  
-![Cancellation Rate](images/cancellation-rate-chart.png)
-
----
-
-### 👑 Top Customers and Ratings  
-![Top Customers](images/top-customers-table.png)
-
----
-
-## 🚀 How to Run
-1. Clone this repository
-2. Open `OlaDashboard.pbix` using Power BI Desktop
-3. Explore visuals, slicers, and DAX measures
-
----
-
-## 🧠 About the Project
-This project simulates the kind of business questions a **data analyst** might face in a ride-sharing company. From query formulation to dashboard storytelling, it showcases a hands-on approach to **turning raw data into actionable insights**.
 
 ---
 
